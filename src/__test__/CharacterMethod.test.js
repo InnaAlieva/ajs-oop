@@ -50,7 +50,7 @@ test("Метод damage(points) не должен изменять значен�
   };
   recieved.damage(10);
   expect(recieved).toEqual(result);
-});
+  });
 
 test("при health < 0 метод damage(points) должен уствновить health = 0", () => {
   const recieved = new Daemon("Valera", "Daemon");
@@ -59,4 +59,5 @@ test("при health < 0 метод damage(points) должен уствнови�
   recieved.health = 0;
 
   expect(recieved.health).toEqual(expectedHealth);
+  });
 });
