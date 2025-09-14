@@ -7,7 +7,6 @@ test("Количество символов в имени менее 2", () => {
   }).toThrow();
 });
 
-
 test("Количество символов в имени более 10", () => {
   expect(() => {
     const result = new Character("xxxxxxxxxxx", "Daemon");
