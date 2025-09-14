@@ -60,4 +60,4 @@ test("при health < 0 метод damage(points) должен уствнови�
 
   expect(recieved.health).toEqual(expectedHealth);
   });
-});
+
